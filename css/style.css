@@ -1,0 +1,32 @@
+.sizeToDistance {
+    width: 80%;
+    margin: 0 auto;
+    padding: 48px;
+}
+
+
+.sizeToDistance__image .is-selected {
+    fill: #E70000;
+}
+
+.sizeToDistance__image {
+    width: 50%;
+    height: 400px;
+    margin: 32px auto;
+    display: block;
+}
+
+.sizeToDistance__image  .is-selected rect {
+    stroke: #E70000 !important;
+}
+
+#sizeSelector {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sizeToDistance__resultWrapper {
+    text-align: center;
+    font-size: 22px;
+    direction: rtl;
+}
