@@ -1,32 +1,52 @@
-.sizeToDistance {
-    width: 80%;
-    margin: 0 auto;
-    padding: 48px;
+body{
+    font-family: 'IRANYekanXVF';
 }
-
-
+.sizeToDistance {
+    margin: 0 auto;
+    padding: 52px;
+    position: relative;
+    width: 80%;
+}
 .sizeToDistance__image .is-selected {
     fill: #E70000;
 }
-
 .sizeToDistance__image {
-    width: 50%;
-    height: 400px;
-    margin: 32px auto;
+    height: auto;
+    margin: 0 auto 32px;
     display: block;
+    width: 100%;
 }
-
 .sizeToDistance__image  .is-selected rect {
     stroke: #E70000 !important;
 }
-
 #sizeSelector {
-    width: 50%;
     margin: 0 auto;
 }
-
 .sizeToDistance__resultWrapper {
     text-align: center;
-    font-size: 22px;
-    direction: rtl;
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-variation-settings: "wght"500;
+}
+.noUi-txt-dir-rtl.noUi-horizontal .noUi-handle {
+    left: auto;
+    right: -17px;
+}
+.sizeToDistance__image text {
+    direction: ltr;
+    font-family: 'IRANYekanXVF';
+    font-size: 32px;
+}
+.sizeToDistance__result {
+    color: #0c4578;
+    border-bottom: 2px dashed;
+    padding: 2px 12px;
+    -moz-font-feature-settings: "ss03";
+    -webkit-font-feature-settings: "ss03";
+    font-feature-settings: "ss03";
+}
+@media only screen and (max-width: 480px) {
+    .sizeToDistance__resultWrapper {
+        font-size: 14px;
+    }
 }
